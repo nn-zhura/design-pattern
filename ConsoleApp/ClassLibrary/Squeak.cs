@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public interface IFlyable
+    public class Squeak : IQuackBehavior
     {
-        string Fly();
+        public string Quack()
+        {
+            return "Пи пи пи";
+        }
     }
 }
